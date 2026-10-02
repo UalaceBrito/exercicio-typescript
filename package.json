@@ -1,17 +1,13 @@
 {
-  "name": "exercicio-ts-senior",
+  "name": "exercicio-ts",
   "version": "1.0.0",
-  "description": "Exercício TypeScript com arquitetura profissional",
+  "description": "Exercício TypeScript de funções com tipagem explícita",
   "main": "dist/index.js",
   "type": "commonjs",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts"
+    "build": "tsc"
   },
   "devDependencies": {
-    "typescript": "^5.4.0",
-    "ts-node": "^10.9.2",
-    "@types/node": "^20.11.0"
+    "typescript": "^5.4.0"
   }
 }

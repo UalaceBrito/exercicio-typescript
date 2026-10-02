@@ -1,18 +1,9 @@
-# 🧮 Exercício TypeScript — Funções Multiplicação & Saudação
+# Exercício TypeScript
 
-Projeto desenvolvido para o exercício de TypeScript do curso.
-Reescrito com arquitetura profissional: módulos, tipagem estrita,
-JSDoc, CLI colorida e modo interativo.
+Implementação de duas funções com tipagem explícita em [src/index.ts](./src/index.ts):
 
-## 🎯 Requisitos atendidos
-- ✅ `multiplicacao(numero1: number, numero2: number): number`
-- ✅ `saudacao(nome: string): string` → retorna `"Olá " + nome`
-- ✅ Código em TypeScript com tipagem forte (`strict: true`)
+- `multiplicacao(numero1: number, numero2: number): number`
+- `saudacao(nome: string): string`
 
-## 🚀 Como executar
-```bash
-npm install
-npm run dev      # modo desenvolvimento (ts-node)
-# ou
-npm run build && npm start
-```
+O arquivo contém apenas as duas funções solicitadas, em menos de 10 linhas.
+Valide a tipagem com `npm run build`.
